@@ -31,6 +31,9 @@ public class ActionEnter {
 		this.contextPath = request.getContextPath();
 		this.configManager = ConfigManager.getInstance( this.rootPath, this.contextPath, request.getRequestURI() );
 		
+		
+		
+		//test
 	}
 	
 	public String exec () {
